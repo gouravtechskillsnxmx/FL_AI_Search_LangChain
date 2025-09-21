@@ -1,0 +1,1 @@
+This is a sample document about intermittent fasting. It discusses benefits and common patterns for beginners. Use as a simple RAG document.

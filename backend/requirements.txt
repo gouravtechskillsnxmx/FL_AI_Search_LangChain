@@ -1,10 +1,8 @@
 fastapi
 uvicorn[standard]
 openai
+python-dotenv
 chromadb
 sentence-transformers
-python-dotenv
-pydantic
-requests
-aiofiles
 python-multipart
+aiofiles
