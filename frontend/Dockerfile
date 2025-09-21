@@ -1,7 +1,7 @@
 FROM node:18-alpine
 WORKDIR /app
-COPY package.json package-lock.json* ./
+COPY package.json ./
 RUN npm ci
-COPY src ./src
+COPY . .
 EXPOSE 3000
-CMD ["npm","run","dev","--","--host"]
+CMD ["node", "server.js"] 
