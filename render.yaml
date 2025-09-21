@@ -3,7 +3,7 @@ services:
   - type: web
     name: textgen-backend
     env: docker
-    repo: https://github.com/YOUR_GITHUB_USERNAME/textgen-rag-repo
+    repo: https://github.com/gouravtechskillsnxmx/FL_AI_Search_LangChain
     branch: main
     rootDir: backend          # build context = backend folder
     dockerfilePath: Dockerfile
@@ -31,3 +31,4 @@ services:
     envVars:
       - key: VITE_API_URL
         value: https://textgen-backend.onrender.com
+
